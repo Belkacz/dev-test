@@ -5,6 +5,7 @@
 
 import { organizationLocations, organizationManagers, organizationNames } from "../mockup/organizations.mockup.js";
 
+// first i just change those timeouts but after that i notice comment above
 export async function getOrganizationNames() {
   await new Promise((resolve) => setTimeout(resolve, 1000));
   return organizationNames;
